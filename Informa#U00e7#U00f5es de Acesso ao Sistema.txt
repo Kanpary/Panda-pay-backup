@@ -1,0 +1,9 @@
+Informações de Acesso ao Sistema
+
+Banco de Dados (SQL):
+Nome do banco: megagr80_roleta
+
+Painel Administrativo:
+URL: /admin
+Login: admin
+Senha: 12345678
