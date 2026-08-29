@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# If a real file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Route all API requests to the PHP router
+RewriteRule ^ index.php [QSA,L]
+
